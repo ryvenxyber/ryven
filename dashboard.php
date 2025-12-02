@@ -273,13 +273,7 @@ function fileExistsCheck($path) {
             </div>
         </div>
     </div>
-    
-    <div class="container">
-        <div class="alert">
-            <h3>✅ Sistem Siap Digunakan!</h3>
-            <p>Semua file backup, analytics, dan activity log sudah tersedia. Silakan gunakan menu di bawah untuk mengakses fitur-fitur yang tersedia.</p>
-        </div>
-        
+   
         <!-- Statistics -->
         <div class="stats-grid">
             <div class="stat-card">
@@ -357,13 +351,6 @@ function fileExistsCheck($path) {
                     <div class="icon">👥</div>
                     <h3>User Management</h3>
                     <p>Kelola user, role akses, dan permission sistem.</p>
-                </a>
-                
-                <a href="management/manage_rss.php" class="menu-card">
-                    <span class="status-badge available">✓ Available</span>
-                    <div class="icon">📰</div>
-                    <h3>RSS Feed Manager</h3>
-                    <p>Kelola feed berita otomatis untuk ditampilkan di layar.</p>
                 </a>
                 
                 <a href="management/manage_backup.php" class="menu-card">
